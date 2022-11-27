@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  box-shadow: 0 4px 2px #282c34;
+  color: #f8f8f9;
+  background: linear-gradient(135deg, blue, black, brown);
+}
+.logo_link {
+  display: flex;
+}
+li {
+  display: inline;
+  list-style: none;
+}
+a {
+  padding: 15px;
+  text-decoration: none;
+  line-height: 1.6em;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+input {
+  width: 400px;
+  padding: 4px;
+  border-radius: 13px;
+  height: 40px;
+}
+.signin {
+  margin: 0%;
+  line-height: 1.5rem;
+  padding: 10px;
+  text-align: center;
+  color: #f8f8f9;
+}
+.moviePlay {
+  width: 16%;
+  box-shadow: 0 1px 2px 1px #282c34;
+  margin-top: 10px;
+  color: chartreuse;
+  background: linear-gradient(90deg, grey, black, rgb(26, 4, 4));
+}
+.movie_play {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+}
+.footer {
+  display: flex;
+  height: 80px;
+  box-shadow: 0 1px 2px 1px #282c34;
+  justify-content: center;
+  align-items: center;
+}
+.my_videos {
+  background: linear-gradient(90deg, black, rgb(28, 3, 3), gray);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+.movies-one {
+  width: 18%;
+  height: auto;
+  box-shadow: 0 1px 2px 1px #282c34;
+  margin: 10px;
+  color: chartreuse;
+  background-color: rgb(26, 4, 4);
+}
+.form-data {
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  width: 30%;
+  top: 20rem;
+  /* margin-top: 30rem; */
+  margin-left: 20rem;
+  box-shadow: 2px 3px #282c34;
+  border-radius: 10px;
+  background-color: aliceblue;
+  padding: 30px 20px;
+}
+.new {
+  top: 100px;
+  height: 100px;
+}
+.login-form {
+  width: 80%;
+  box-shadow: 1px 2px 3px #282c34;
+  line-height: 1.5rem;
+  font-size: 1.6em;
+}
